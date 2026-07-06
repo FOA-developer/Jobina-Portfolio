@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────
+   Design Tokens — all colours live here.
+   Tailwind v4 @theme exposes these as both
+   utility classes (bg-primary, text-accent)
+   AND CSS custom properties (var(--color-*))
+   ───────────────────────────────────────── */
+@theme {
+  /* Backgrounds */
+  --color-primary:      #08080f;
+  --color-secondary:    #12121e;
+  --color-surface:      #1a1a2e;
+
+  /* Accent */
+  --color-accent:       #7c3aed;
+  --color-accent-soft:  #a78bfa;
+
+  /* Text */
+  --color-text:         #ffffff;
+  --color-text-muted:   #a0aec0;
+
+  /* UI chrome */
+  --color-border:       rgba(255, 255, 255, 0.18);
+  --color-tag-bg:       rgba(255, 255, 255, 0.08);
+  --color-overlay:      rgba(8, 8, 20, 0.68);
+}
+
+/* ─────────────────────────────────────────
+   Marquee — infinite horizontal scroll
+   ───────────────────────────────────────── */
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 40s linear infinite;
+}
+
+/* Pause on hover so users can read a stat */
+.marquee-wrapper:hover .marquee-track {
+  animation-play-state: paused;
+}
