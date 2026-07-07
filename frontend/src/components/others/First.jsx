@@ -21,7 +21,7 @@ const First = ({tags, title, header, period,  description, link, img, impact }) 
           {/* ══════════════════════════════════════════════
             IMPACT IN NUMBERS — auto-scrolling marquee
             ══════════════════════════════════════════════ */}
-        <div className="py-8 md:py-10 overflow-hidden bg-secondary">
+        <div className="relative z-10 py-8 md:py-10 overflow-hidden bg-secondary w-full">
 
           {/* Marquee wrapper — hover pauses scroll (see index.css) */}
           <div className="marquee-wrapper overflow-hidden">
