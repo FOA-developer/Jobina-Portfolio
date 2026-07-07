@@ -70,8 +70,6 @@ const ScrollStack = ({
       if (i < cards.length - 1) card.style.marginBottom = `${dist}px`;
     });
 
-    cachePositions();
-
     // Re-cache on resize (positions change)
     const onResize = () => cachePositions();
     window.addEventListener('resize', onResize, { passive: true });
@@ -169,12 +167,18 @@ const ScrollStack = ({
       rafId = requestAnimationFrame(raf);
     }
 
-    // Initial paint
-    scheduleUpdate();
+    // Defer first measurement until after browser has painted (fixes remount stale positions)
+    let initRaf = requestAnimationFrame(() => {
+      initRaf = requestAnimationFrame(() => {
+        cachePositions();
+        scheduleUpdate();
+      });
+    });
 
     return () => {
       if (isWindow) window.removeEventListener('scroll', scheduleUpdate);
       window.removeEventListener('resize', onResize);
+      cancelAnimationFrame(initRaf);
       if (rafId) cancelAnimationFrame(rafId);
       if (lenisInstance) lenisInstance.destroy();
       lastTransforms.clear();
@@ -189,7 +193,7 @@ const ScrollStack = ({
 
   return (
     <div ref={scrollerRef} className={containerClass}>
-      <div className="scroll-stack-inner pt-6 px-20 pb-40">
+      <div className="scroll-stack-inner pt-6 px-20 pb-4">
         {children}
         <div className="scroll-stack-end w-full h-px" />
       </div>
