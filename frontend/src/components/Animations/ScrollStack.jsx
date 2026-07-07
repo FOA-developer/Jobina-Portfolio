@@ -48,18 +48,12 @@ const ScrollStack = ({
 
     // ── Cache positions once — avoids getBoundingClientRect on every frame ───
     let cardTops = [];
-    let endTop = 0;
 
     const cachePositions = () => {
       cardTops = cards.map(c => {
         const rect = c.getBoundingClientRect();
         return rect.top + (isWindow ? window.scrollY : scroller.scrollTop);
       });
-      const endEl = scroller.querySelector('.scroll-stack-end');
-      if (endEl) {
-        const rect = endEl.getBoundingClientRect();
-        endTop = rect.top + (isWindow ? window.scrollY : scroller.scrollTop);
-      }
     };
 
     // ── Apply initial card styles ────────────────────────────────────────────
@@ -101,11 +95,16 @@ const ScrollStack = ({
       const pinOffset = parsePercent(stackPosition, vh);
       const scaleEnd = parsePercent(scaleEndPosition, vh);
 
+      // pinEnd = the moment the LAST card starts pinning + small buffer.
+      // Once all cards are stacked there is no more animation, so we unpin
+      // immediately — this eliminates the dead-scroll zone after stacking.
+      const lastIdx = cardTops.length - 1;
+      const pinEnd = cardTops[lastIdx] - pinOffset - itemStackDistance * lastIdx + 20;
+
       cards.forEach((card, i) => {
         const cardTop = cardTops[i];
         const triggerStart = cardTop - pinOffset - itemStackDistance * i;
         const triggerEnd   = cardTop - scaleEnd;
-        const pinEnd       = endTop - vh / 2;
 
         const scaleProgress = clamp01(scrollTop, triggerStart, triggerEnd);
         const targetScale   = baseScale + i * itemScale;
@@ -195,7 +194,6 @@ const ScrollStack = ({
     <div ref={scrollerRef} className={containerClass}>
       <div className="scroll-stack-inner pt-6 px-20 pb-4">
         {children}
-        <div className="scroll-stack-end w-full h-px" />
       </div>
     </div>
   );
