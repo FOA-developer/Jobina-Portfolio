@@ -14,7 +14,7 @@ const Second = ({img, title, description, cert}) => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col justify-between items-start gap-2">
+        <div className="flex flex-col mb-10 md:mb-0 justify-between items-start gap-2">
           <img src={img} alt={title} className="object-cover w-full h-full rounded-xl" />
         </div>
       </div>
