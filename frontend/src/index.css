@@ -9,18 +9,25 @@
 @theme {
   /* Backgrounds */
   --color-primary:      #08080f;
-  --color-secondary:    #12121e;
+  --color-secondary:    #F3EBF8;
   --color-surface:      #1a1a2e;
+ 
 
   /* Accent */
-  --color-accent:       #7c3aed;
+  --color-accent:       #E9DFEF;
   --color-accent-soft:  #a78bfa;
 
   /* Text */
   --color-text:         #ffffff;
-  --color-text-muted:   #a0aec0;
+  --color-text-muted:   #221726;
+  --color-text-muted-soft: #8a7d90;
+  --color-text-main:  #9B33C0;
+  --color-text-header: #4A1063;
+  --color-text-header-description: #5a4d60;
 
   /* UI chrome */
+  --color-card-border:    #e0d5ea;
+  --color-contact-border: rgba(255, 255, 255, 0.08);
   --color-border:       rgba(255, 255, 255, 0.18);
   --color-tag-bg:       rgba(255, 255, 255, 0.08);
   --color-overlay:      rgba(8, 8, 20, 0.68);
@@ -43,4 +50,16 @@
 /* Pause on hover so users can read a stat */
 .marquee-wrapper:hover .marquee-track {
   animation-play-state: paused;
+}
+
+
+@layer utilities {
+  .bg-hero-fade {
+    background-image:
+      url('./assets/17a.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
