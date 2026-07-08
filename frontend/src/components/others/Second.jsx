@@ -1,7 +1,7 @@
 const Second = ({img, title, description, cert}) => {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 px-8 md:p-12 mt-18">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 px-8 mb-15 md:p-12 mt-18">
         <div className="flex flex-col items-start gap-4 overflow-hidden ">
           <h4 className="text-xs md:text-sm text-text-main font-semibold tracking-[0.1em] uppercase text-left ">overview</h4>
           <h2 className="text-text-muted text-3xl font-semibold md:text-4xl">What She Did</h2>
@@ -14,7 +14,7 @@ const Second = ({img, title, description, cert}) => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col mb-10 md:mb-0 justify-between items-start gap-2">
+        <div className=" justify-between items-start gap-2">
           <img src={img} alt={title} className="object-cover w-full h-full rounded-xl" />
         </div>
       </div>
