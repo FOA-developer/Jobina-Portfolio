@@ -113,9 +113,7 @@ const Hero = () => {
           IMPACT IN NUMBERS — auto-scrolling marquee
           ══════════════════════════════════════════════ */}
       <div
-        className="py-8 md:py-10 overflow-hidden"
-        style={{ background: 'var(--color-secondary)' }}
-      >
+        className="py-8 md:py-10 overflow-hidden bg-secondary">
 
         {/* Marquee wrapper — hover pauses scroll (see index.css) */}
         <div className="marquee-wrapper overflow-hidden">
