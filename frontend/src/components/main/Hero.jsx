@@ -74,9 +74,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 mb-8">
             <a
               href="#contact"
-              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:brightness-110"
-              style={{ background: 'var(--color-accent)' }}
-            >
+              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border-1">
               Get in touch <span aria-hidden>→</span>
             </a>
 
