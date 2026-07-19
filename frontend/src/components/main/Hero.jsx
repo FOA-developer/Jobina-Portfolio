@@ -25,7 +25,7 @@ const Hero = () => {
       {/* ══════════════════════════════════════════════
           HERO — full-viewport background image block
           ══════════════════════════════════════════════ */}
-      <div className="relative min-h-screen flex flex-col justify-end pb-16 md:pb-20 overflow-hidden">
+      <div className="relative min-h-screen flex flex-col justify-center pb-16 md:pb-20 overflow-hidden">
 
         {/* Background image */}
         <img
@@ -43,11 +43,11 @@ const Hero = () => {
         />
 
         {/* ── Hero content — sits above the overlay ── */}
-        <div className="relative z-10 px-6 md:px-16 lg:px-16">
+        <div className="relative z-10 px-6 pt-18  md:px-16 lg:px-16">
 
           {/* Small uppercase label at the top */}
           <p
-            className="text-xs text-sm tracking-[0.1em] uppercase mb-5 font-medium"
+            className="text-xs md:text-sm tracking-[0.1em] pt-0 lg:pt-6 uppercase mb-5 font-medium"
             style={{ color: 'var(--color-text-main)' }}
           >
             Future Workforce &nbsp;·&nbsp; Innovation &nbsp;·&nbsp; Digital Skills
