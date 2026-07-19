@@ -15,16 +15,16 @@ const Gallery = ({img, img1, img2, img3, title}) => {
           baseScale={0.9}
         >
           <ScrollStackItem>
-            <img src={img} alt="Gallery Image 1" loading="lazy" className="w-full h-full object-cover rounded-[40px]" />
+            <img src={img} alt="Gallery Image 1" loading="lazy" decoding="async" className="w-full h-full object-cover rounded-[40px]" />
           </ScrollStackItem>
           <ScrollStackItem>
-            <img src={img1} alt="Gallery Image 2" loading="lazy" className="w-full h-full object-cover rounded-[40px]" />
+            <img src={img1} alt="Gallery Image 2" loading="lazy" decoding="async" className="w-full h-full object-cover rounded-[40px]" />
           </ScrollStackItem>
           <ScrollStackItem>
-            <img src={img2} alt="Gallery Image 3" loading="lazy" className="w-full h-full object-cover rounded-[40px]" />
+            <img src={img2} alt="Gallery Image 3" loading="lazy" decoding="async" className="w-full h-full object-cover rounded-[40px]" />
           </ScrollStackItem>
           <ScrollStackItem>
-            <img src={img3} alt="Gallery Image 3" loading="lazy" className="w-full h-full object-cover rounded-[40px]" />
+            <img src={img3} alt="Gallery Image 3" loading="lazy" decoding="async" className="w-full h-full object-cover rounded-[40px]" />
           </ScrollStackItem>
       </ScrollStack>
     </section>

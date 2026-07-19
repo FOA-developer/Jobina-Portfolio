@@ -68,6 +68,15 @@ const ScrollStack = ({
     const onResize = () => cachePositions();
     window.addEventListener('resize', onResize, { passive: true });
 
+    // Lazy-loaded images finish loading AFTER the initial position cache.
+    // Their layout box can shift once decoded, which leaves cardTops stale and
+    // the stack never forms. Re-cache (and re-render) whenever an image loads.
+    const imgs = Array.from(scroller.querySelectorAll('img'));
+    const onImgLoad = () => { cachePositions(); scheduleUpdate(); };
+    imgs.forEach(img => {
+      if (!img.complete) img.addEventListener('load', onImgLoad, { passive: true });
+    });
+
     // ── Core animation ───────────────────────────────────────────────────────
     let rafId = null;
     let stackCompleted = false;
@@ -177,6 +186,7 @@ const ScrollStack = ({
     return () => {
       if (isWindow) window.removeEventListener('scroll', scheduleUpdate);
       window.removeEventListener('resize', onResize);
+      imgs.forEach(img => img.removeEventListener('load', onImgLoad));
       cancelAnimationFrame(initRaf);
       if (rafId) cancelAnimationFrame(rafId);
       if (lenisInstance) lenisInstance.destroy();
