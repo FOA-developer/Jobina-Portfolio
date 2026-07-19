@@ -60,7 +60,7 @@ const Speaking = () => {
     >
       {/* ── Section label ── */}
       <p
-        className="text-xs tracking-[0.1em] uppercase mb-10 font-bold text-text-main">
+        className="text-xs tracking-widest uppercase mb-10 font-bold text-text-main">
         Speaking & Thought Leadership
       </p>
 
