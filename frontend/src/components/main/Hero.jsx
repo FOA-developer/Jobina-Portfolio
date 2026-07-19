@@ -31,6 +31,7 @@ const Hero = () => {
         <img
           src={heroImg}
           alt="Jobina Arinze"
+          loading="eager"
           className="absolute top-0 left-0 w-full h-full object-cover object-center"
           style={{ top: '30px', height: 'calc(100% + 80px)' }}
         />
