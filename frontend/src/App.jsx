@@ -12,11 +12,13 @@ import Digital from './pages/Digital';
 import Blind from './pages/Blind';
 import Excel from './pages/Excel';
 import Pathway from './pages/Pathway';
+import ScrollToTop from './components/others/ScrollToTop';
 
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/youth" element={<Youth />} />
