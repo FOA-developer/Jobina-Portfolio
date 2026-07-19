@@ -2,7 +2,7 @@ import First from "../components/others/First";
 import Navbar from "../components/main/Navbar";
 import Second from "../components/others/Second";
 import Contact from "../components/main/Contact";
-import img from "../assets/jci/2.jpeg"
+import img from "../assets/jci/1.jpeg"
 import img2 from "../assets/jci/3.jpeg"
 
 const impact = [

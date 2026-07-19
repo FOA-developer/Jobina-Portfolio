@@ -20,7 +20,7 @@ const impact = [
 ];
 
 
-const Grit = () => {
+const Jobberman = () => {
   return  (
     <>
     <Navbar />
@@ -52,4 +52,4 @@ const Grit = () => {
   )
 }
 
-export default Grit;
+export default Jobberman;
