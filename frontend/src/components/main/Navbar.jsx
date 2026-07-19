@@ -57,14 +57,14 @@ const DesktopDropdown = ({ menu, isOpen, onOpen, onClose, onToggle }) => {
           id={menuId}
           role="menu"
           aria-label={menu.label}
-          className="absolute top-full left-0 mt-3 w-72 max-h-[70vh] overflow-y-auto rounded-2xl border bg-[#0e0e18]/95 backdrop-blur-md shadow-xl py-2"
+          className="absolute top-full left-0 mt-3 w-72 max-h-[70vh] overflow-y-auto rounded-2xl border bg-white backdrop-blur-md shadow-xl py-2"
           style={{ borderColor: 'var(--color-border)' }}
         >
           <Link
             to={menu.anchor}
             role="menuitem"
             onClick={onClose}
-            className="block px-4 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            className="block px-4 py-2.5 text-sm font-semibold text-black/70 hover:bg-white/10 transition-colors"
           >
             {menu.allLabel}
           </Link>
@@ -79,8 +79,8 @@ const DesktopDropdown = ({ menu, isOpen, onOpen, onClose, onToggle }) => {
               onClick={onClose}
               className="block px-4 py-2 hover:bg-white/10 transition-colors"
             >
-              <span className="block text-sm text-white/85">{item.title}</span>
-              <span className="block text-xs text-white/45">{item.period}</span>
+              <span className="block text-sm text-black/60">{item.title}</span>
+              <span className="block text-xs text-black/45">{item.period}</span>
             </Link>
           ))}
         </div>
