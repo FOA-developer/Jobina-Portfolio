@@ -1,7 +1,7 @@
 import Tag from "../shared/Tag";
 
 
-const First = ({tags, title, first,  header, period,  description, link, img, impact }) => {
+const First = ({tags, title, first, description1,  header, period,  description, link, img, impact }) => {
    return (
     <section className="">
       <div className="flex flex-col relative justify-between items-start overflow-hidden ">
@@ -10,7 +10,7 @@ const First = ({tags, title, first,  header, period,  description, link, img, im
         <div className="relative z-10 flex flex-col gap-4 justfy-between px-[10%] py-16">
           <h4 className="text-xs md:text-sm text-text-main mt-20 tracking-[0.2em] uppercase text-left ">{first}</h4>
           <h2 className="text-3xl text-white/90 font-semibold pt-6 leading-tight md:text-4xl max-w-3xl lg:text-5xl">{header}</h2>
-          <p className=" text-sm text-white/90 md:text-base">{period}</p>
+          <p className=" text-sm text-text-muted-soft md:text-base">{period}</p>
           <p className="text-white/60">{description}</p>
           <div className="flex flex-wrap gap-3 py-4">
             {tags.map((t) => (
