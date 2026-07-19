@@ -17,7 +17,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 md:py-28 px-6 md:px-16 lg:px-24 bg-white"
+      className="pt-20 md:pt-28 mb-20 px-6 md:px-16 lg:px-24 bg-white"
     >
       {/* ── Section label ── */}
       <p
@@ -57,21 +57,11 @@ const About = () => {
             style={{ color: 'var(--color-text-muted)' }}
           >
             <p>
-              Jobina Arinze is a senior digital skills, youth development and ICT workforce
-              development specialist with over eight years designing and scaling labour-market
-              relevant programmes that sit at the intersection of policy, technology and
-              international development.
-            </p>
+             Jobina Arinze is a digital skills, youth development, and innovation leader building Africa's future workforce at the intersection of policy, technology, and human capital. With over eight years of experience across government, innovation ecosystems, and international development, she designs and scales initiatives that equip young people with the skills, opportunities, and networks needed to thrive in the digital economy.            </p>
             <p>
-              She leads the <strong className="text-text-header font-medium">NITDA</strong> annual portfolio
-              of 70+ programmes reaching more than 2,000 young women through coding, entrepreneurship,
-              digital safety, data literacy and financial technology.
-            </p>
+              As Head of Edo Innovates, Edo State's flagship innovation ecosystem, she leads 70+ annual programmes spanning AI, entrepreneurship, digital literacy, and fintech reaching 2,000+ young people yearly within an ecosystem that has trained 42,000+ tech talents            </p>
             <p>
-              Her expertise spans technical curriculum development, curriculum design and quality
-              assurance, building inclusive learning and youth employability — with a deep
-              commitment to women's economic participation in the digital economy.
-            </p>
+             She partners with governments, development organizations, academia, and the private sector to build inclusive talent pipelines and sustainable pathways into employment and entrepreneurship.            </p>
           </div>
 
           {/* Quote card */}
