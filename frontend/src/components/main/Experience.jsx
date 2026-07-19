@@ -1,39 +1,39 @@
 const EXPERIENCE = [
   {
-    period:  '2021 — PRESENT',
-    title:   'Head, Edo Innovations',
-    org:     'Edo Innovations',
-    desc:    'Leading a rapidly growing digital skills ecosystem — a ₦800M portfolio, 70+ programmes per year, directly overseeing/managing ₦200M (rising) budgets annually.',
+    period:  'OCT 2024 — Present',
+    title:   'Head, Edo Innovates',
+    org:     'Edo Innovates | Edo State Government',
+    desc:    "Leads Edo State's flagship digital skills ecosystem, overseeing a ₦800M+ portfolio of 70+ programmes in AI, entrepreneurship, digital literacy, and emerging tech equipping 2,000+ young people yearly while building partnerships across government and private sector.",
   },
   {
-    period:  'AUGUST 2025 — PRESENT',
-    title:   'Relationship Management: Team Lead',
-    org:     'GirlLEAD Talent Accelerator · Remote',
-    desc:    'Managed key institutional partnerships and designed engagement frameworks that strengthened stakeholder relationships and expanded programme reach across multiple states.',
+    period:  'AUG 2025 — Present',
+    title:   'Relationship Management Team Lead',
+    org:     'GirlLEAD Talent Accelerator | Remote',
+    desc:    "Leads partnership development and stakeholder engagement across government, private sector, and academia to expand opportunities for women in tech and leadership, designing frameworks that strengthen programme reach."
   },
   {
-    period:  '2018 — 2019',
+    period:  'MARCH 2024 — SEPT 2024',
     title:   'Faculty Lead / Head of BUILD',
-    org:     'Empower Her Community · Hybrid',
-    desc:    'Directed technology and entrepreneurship programmes reaching 1,700+ women across 6 geozones, connecting 100+ promising startups to wider networks and investors.',
+    org:     'Edo Innovates | Edo State Government',
+    desc:    "Led the BUILD Faculty, overseeing curriculum development, facilitator excellence, and delivery across digital skills and entrepreneurship. Standardised learning frameworks and strengthened quality assurance through competency-based design."
   },
   {
-    period:  '2017 — 2018',
+    period:  'OCT 2023 — AUG 2025',
     title:   'Regional Lead, South-South',
-    org:     'Empower Her Community · Hybrid',
-    desc:    'Delivered advanced AWS Cloud, Cisco Networking and Infrastructure operations training aligned with international certification pathways through classroom-based instruction.',
+    org:     'Empower Her Community',
+    desc:  "Directed regional strategy across South-South Nigeria, expanding tech, entrepreneurship, and leadership access for women through strategic partnerships and multi-state coordination."  
   },
   {
-    period:  '2016 — 2017',
+    period:  'MAY 2023 — MAY 2025',
     title:   'DevOps & Cloud Instructor',
-    org:     'Techeccentric Consulting (Canada) · Remote',
-    desc:    'Delivered advanced AWS Cloud, Cisco Networking and Infrastructure operations training aligned with international certification pathways through classroom-based instruction.',
+    org:     'Techeccentric Consulting (Canada) | Remote',
+    desc:    "Designed and delivered cloud infrastructure training across AWS, Linux, networking, and CI/CD, preparing learners for cloud careers and certification pathways."
   },
   {
-    period:  '2012 — 2016',
+    period:  'JAN 2024 — PRESENT',
     title:   'Senior Legal Counsel',
-    org:     'Edo State Skills Development Agency · Benin City',
-    desc:    'Provided corporate and commercial legal counsel across ICT, telecoms and media — advising on regulatory compliance, contract negotiation and strategic risk, rising to Senior Legal Counsel.',
+    org:     'Edo State Skills Development Agency (EdoJobs)',
+    desc:    "Provided legal, governance, and compliance advisory for workforce programmes, strengthening institutional accountability and contract management across government partnerships."
   },
 ];
 
