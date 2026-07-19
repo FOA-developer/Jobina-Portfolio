@@ -5,7 +5,7 @@ const First = ({tags, title, first, description1,  header, period,  description,
    return (
     <section className="">
       <div className="flex flex-col relative justify-between items-start overflow-hidden ">
-        <img src={img} alt="Jobina Arinze" className="absolute bg-cover bg-center bg-no-repeat top-0 left-0 w-full h-full object-cover object-center"/>     
+        <img src={img} alt="Jobina Arinze" loading="eager" className="absolute bg-cover bg-center bg-no-repeat top-0 left-0 w-full h-full object-cover object-center"/>
         <div className="absolute inset-0 bg-overlay"/>
         <div className="relative z-10 flex flex-col gap-4 justfy-between px-[10%] py-16">
           <h4 className="text-xs md:text-sm text-text-main mt-20 tracking-[0.2em] uppercase text-left ">{first}</h4>
