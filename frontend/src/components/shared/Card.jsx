@@ -13,7 +13,7 @@ const Card = ({ tags = [], title, src, description, period, link = '#' }) => (
 
     {/* Top section — tags + title + description */}
     <div className="flex flex-col gap-4">
-      <img src={src} alt={title} loading="lazy" className="w-full h-60 rounded-t-lg" />
+      <img src={src} alt={title} loading="lazy" className="w-full h-60 object-cover object-center rounded-t-lg" />
 
       <div className="flex flex-col gap-4 p-6 md:p-7">
         <span className="text-xs md:text-sm font-semibold tracking-wider text-text-main uppercase">
