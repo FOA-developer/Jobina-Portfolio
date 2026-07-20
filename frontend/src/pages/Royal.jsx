@@ -29,16 +29,17 @@ const Royal = () => {
         first = "speaking engagement"
         img={img}
         impact = {impact}
-        header="EstablishHER Academy"
-        period="Royal Iwere Foundation"
-        description="The EstablishHER Entrepreneurship Fund is the Royal Iwere Foundation's flagship women's entrepreneurship programme, delivered in partnership with Stanbic IBTC Bank. Designed to accelerate women-led businesses through entrepreneurship, mentorship, and access to finance, the programme has empowered 700+ women across three cohorts. As a facilitator, Jobina delivered practical sessions on Artificial Intelligence, Digital Literacy, and Business Automation, equipping entrepreneurs to leverage technology for business growth and operational efficiency"
+        header="EstablishHER Academy - Royal Iwere Foundation"
+        period="Faciltator | EstablishHER Academy"
+        description="The EstablishHER Academy is the flagship women entrepreneurship and enterprise development programme of the Royal Iwere Foundation, founded by Her Majesty Olori Atuwatse III. The annual programme equips aspiring and growth-stage women entrepreneurs with the knowledge, mentorship, networks, and practical capabilities required to build resilient, scalable, and sustainable businesses."
         tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']} 
         /> 
       <Second
         img={img1}
-        title="Youth Digital Skills"
-        description="The Youth Digital Talent Pipeline was designed to confront a structural gap in Edo State: low early exposure to STEM, Artificial Intelligence and emerging technologies. Jobina institutionalised a multi-track system that meets young people where they are and moves them, step by step, into the future workforce.Built around robotics, programming, data analytics, web development and AI, the pipeline created a structured progression path — from first exposure through to advanced, certification-ready skills and employer-aligned projects. [Add the full story, context and your role here.]"
-        cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}
+        title="EstablishHER Academy - Royal Iwere Foundation"
+        description="Recognised for her expertise in workforce development and innovation, Jobina Arinze was invited as a Facilitator in consecutive editions (2025 and 2026), delivering practical sessions that explored innovation, digital transformation, and technology-enabled business growth. She guided participants on leveraging digital tools, strengthening business resilience, and positioning their enterprises for long-term competitiveness in an increasingly digital economy."
+        description1="The programme convenes women entrepreneurs, business leaders, ecosystem enablers, mentors, and development partners to accelerate women's economic empowerment through enterprise development and leadership"
+        cert={["Invited as a Facilitator for consecutive editions of the EstablishHER Academy.", "Delivered sessions on innovation, digital transformation, enterprise growth.", "Equipped women entrepreneurs with tech strategies boost competitiveness.", "Facilitated discussions, mentoring participants building future-ready businesses." ]}
       />
       <Gallery 
           img={img2}

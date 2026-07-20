@@ -23,16 +23,17 @@ const Grit = () => {
         first = "speaking engagement"
         img={img2}
         impact = {impact}
-        header="Empowering the next generation of digital leaders."
-        period="Gritin AI"
-        description="The Youth Digital Skills program is a transformative initiative designed to equip young individuals with essential digital skills, fostering innovation, creativity, and employability in the digital age. Through comprehensive training and hands-on experience, participants gain proficiency in various digital tools and technologies, preparing them for successful careers in the ever-evolving digital landscape."
+        header="GritinAI Connect 1.0 - AI Conference Edo 2025"
+        period="Panelist | AI for Sustainable Development in Edo State"
+        description='The GritinAI Connect 2025 conference in Benin City, Nigeria, brought together tech leaders under the theme "AI for Sustainable Development." Moving from awareness to action, the event focused on empowering local MSMEs through automated marketing and modernizing education with the Edo State Ministry of Education. Highlighting healthcare equity and hands-on building, the landmark event featured an AI hackathon, positioning Benin City as a premier, inclusive tech hub for responsible African innovation.'
         tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
       /> 
       <Second
         img={img}
-        title="Youth Digital Skills"
-        description="The Youth Digital Talent Pipeline was designed to confront a structural gap in Edo State: low early exposure to STEM, Artificial Intelligence and emerging technologies. Jobina institutionalised a multi-track system that meets young people where they are and moves them, step by step, into the future workforce.Built around robotics, programming, data analytics, web development and AI, the pipeline created a structured progression path — from first exposure through to advanced, certification-ready skills and employer-aligned projects. [Add the full story, context and your role here.]"
-        cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}
+        header = "Contributions"
+        title="GritinAI Connect 1.0 - AI Conference Edo 2025"
+        description="She participated as a panelist at GritinAI Connect 1.0, one of Edo State's flagship artificial intelligence conferences, bringing together policymakers, technology leaders, academics, entrepreneurs, startups, and development partners to explore AI-driven innovation and sustainable development — speaking specifically on 'AI for Sustainable Development in Edo State: Now and the Future,' and contributing insights on leveraging AI to transform education, workforce development, governance, and economic growth, while engaging stakeholders on positioning Edo State as a regional hub for AI innovation and responsible, inclusive digital talent development."
+        cert={['Panelist on "AI for Sustainable Development in Edo State: Now and the Future."', "Shared AI insights across education, workforce, governance", "Positioned Edo State as AI innovation hub", "Promoted responsible AI adoption, cross-sector collaboration" ]}
       />
       <Contact />
     </>

@@ -23,16 +23,17 @@ const Jci = () => {
         first = "speaking engagement"
         img={img2}
         impact = {impact}
-        header="Empowering the next generation of digital leaders."
+        header="JCIN UNIBEN - Employability, Business & Leadership (EBL) Masterclass 8.0"
         period="Gritin AI"
-        description="The Youth Digital Skills program is a transformative initiative designed to equip young individuals with essential digital skills, fostering innovation, creativity, and employability in the digital age. Through comprehensive training and hands-on experience, participants gain proficiency in various digital tools and technologies, preparing them for successful careers in the ever-evolving digital landscape."
+        description="The Employability, Business & Leadership (EBL) Masterclass is JCIN UNIBEN's flagship annual capacity-building programme designed to bridge the gap between academic learning and workplace readiness. Through intensive training, mentorship, practical assignments, and industry engagement, the programme equips students and young professionals with the competencies required for successful careers and entrepreneurship."
         tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
       /> 
       <Second
         img={img}
         title="Youth Digital Skills"
-        description="The Youth Digital Talent Pipeline was designed to confront a structural gap in Edo State: low early exposure to STEM, Artificial Intelligence and emerging technologies. Jobina institutionalised a multi-track system that meets young people where they are and moves them, step by step, into the future workforce.Built around robotics, programming, data analytics, web development and AI, the pipeline created a structured progression path — from first exposure through to advanced, certification-ready skills and employer-aligned projects. [Add the full story, context and your role here.]"
-        cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}
+        description='In recognition of her expertise in workforce development and employability, Jobina Arinze was invited to serve in multiple capacities. She facilitated a masterclass on "Writing a Winning CV and Cover Letter," equipping participants with practical strategies for developing compelling application documents and positioning themselves competitively in the job market'
+        description1="She also served as an Employability Challenge Judge, assessing finalists through competency-based mock interviews that simulated real recruitment processes. Participants were evaluated on communication, professionalism, critical thinking, problem-solving, emotional intelligence, confidence, and overall workplace readiness, with individualized feedback provided to support their professional growth."
+        cert={["Facilitated a masterclass on Writing a Winning CV and Cover Letter.", "Served as an official Judge for the Employability Challenge Grand Finale.", "Evaluated candidates using structured assessment criteria.", "Provided feedback to strengthen participants' workplace readiness.","Participated as Special Guest, recognised for her contribution." ]}
       />
       <Contact />
     </>
