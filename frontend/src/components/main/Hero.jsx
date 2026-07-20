@@ -10,7 +10,7 @@ const ROLES = [
 
 /* ─── Impact stats that scroll in the marquee ─── */
 const IMPACT_STATS = [
-  { value: '42,000+',  label: 'Tech talents trained across the ecosystem' },
+  { value: '42,000+',  label: 'learners reached through ecosystem-wide programmes' },
   { value: 'N800M+',   label: 'Annual programme portfolio led' },
   { value: '70+',      label: 'Programmes & cohorts a year' },
   { value: '2,000+',   label: 'Young people reached annually' },
