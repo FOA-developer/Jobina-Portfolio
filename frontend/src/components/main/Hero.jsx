@@ -2,7 +2,7 @@ import heroImg from '../../assets/17a.jpg';
 
 /* ─── Role pills shown below the CTA buttons ─── */
 const ROLES = [
-  'Head: Edu Innovations',
+  'Head: Edo Innovation Hub',
   'Program Manager',
   'Tech Trainer & Speaker',
   'Legal Counsel',
@@ -66,9 +66,9 @@ const Hero = () => {
 
           {/* Secondary / bio line */}
           <p className="text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
-            Junior digital skills, youth entrepreneurship and ICT workforce
+            Digital skills, youth entrepreneurship and ICT workforce
             development specialist. Career turned ecosystem builder.
-            Head of Edu Innovations.
+            Head of Edo Innovation Hub.
           </p>
 
           {/* CTA buttons */}
