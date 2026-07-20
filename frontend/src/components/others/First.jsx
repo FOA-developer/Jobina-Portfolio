@@ -3,7 +3,7 @@ import Tag from "../shared/Tag";
 
 const First = ({tags, title, first, description1,  header, period,  description, link, img, impact }) => {
    return (
-    <section className="">
+    <section>
       <div className="flex flex-col relative justify-between items-start overflow-hidden ">
         <img src={img} alt="Jobina Arinze" loading="eager" className="absolute bg-cover bg-center bg-no-repeat top-0 left-0 w-full h-full object-cover object-center"/>
         <div className="absolute inset-0 bg-overlay"/>
