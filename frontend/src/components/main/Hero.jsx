@@ -2,7 +2,7 @@ import heroImg from '../../assets/17a.jpg';
 
 /* ─── Role pills shown below the CTA buttons ─── */
 const ROLES = [
-  'Head: Edo Innovation Hub',
+  'Head Of Edo Innovation Hub',
   'Program Manager',
   'Tech Trainer & Speaker',
   'Legal Counsel',
