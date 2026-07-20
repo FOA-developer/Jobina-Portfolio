@@ -47,7 +47,7 @@ const Hero = () => {
 
           {/* Small uppercase label at the top */}
           <p
-            className="text-xs md:text-sm tracking-[0.1em] pt-0 lg:pt-6 uppercase mb-5 font-medium"
+            className="text-xs md:text-sm tracking-[0.1em] pt-0 lg:pt-16 uppercase mb-5 font-medium"
             style={{ color: 'var(--color-text-main)' }}
           >
             Future Workforce &nbsp;·&nbsp; Innovation &nbsp;·&nbsp; Digital Skills
@@ -65,11 +65,7 @@ const Hero = () => {
           </p>
 
           {/* Secondary / bio line */}
-          <p className="text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
-            Digital skills, youth entrepreneurship and ICT workforce
-            development specialist. Career turned ecosystem builder.
-            Head of Edo Innovation Hub.
-          </p>
+          <p className="text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-lg">Human capital and innovation leader driving workforce transformation through strategic programme leadership, ecosystem development, and cross-sector partnerships, designing initiatives that equip young people and institutions to thrive in the digital economy.</p>
 
           {/* CTA buttons */}
           <div className="flex flex-wrap gap-4 mb-8">
