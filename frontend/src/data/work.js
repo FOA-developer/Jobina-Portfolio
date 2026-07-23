@@ -30,7 +30,7 @@ export const WORK_ITEMS = [
   },
   {
     title:       'Sustainable E-Commerce For Growth',
-    description: "Edo Basic Education Sector and Skills Transformation Operation provided strategic leadership for curriculum and programme delivery for the digital skills component.",
+    description: "The Centre for Digital Business and E-Commerce Skills is an EdoJobs and GIZ initiative under the SEDIN SE4G initiative, based at the Edo Innovation Hub, equipping MSMEs with digital skills in e commerce, marketing, and business strategy.",
     period:      '2022 — PRESENT',
     src: img7,
     link: '/se4g',
