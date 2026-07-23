@@ -9,31 +9,31 @@ const EXPERIENCE = [
     period:  'AUG 2025 — Present',
     title:   'Relationship Management Team Lead',
     org:     'GirlLEAD Talent Accelerator | Remote',
-    desc:    "Leads partnership development and stakeholder engagement across government, private sector, and academia to expand opportunities for women in tech and leadership, designing frameworks that strengthen programme reach."
+    desc:    "Leads strategic partnerships across sectors to expand opportunities for women and young professionals, building frameworks for greater programme impact."
   },
   {
     period:  'MARCH 2024 — SEPT 2024',
     title:   'Faculty Lead / Head of BUILD',
     org:     'Edo Innovates | Edo State Government',
-    desc:    "Led the BUILD Faculty, overseeing curriculum development, facilitator excellence, and delivery across digital skills and entrepreneurship. Standardised learning frameworks and strengthened quality assurance through competency-based design."
+    desc:    "Led BUILD Faculty curriculum and facilitator excellence, establishing competency-based learning systems that strengthened learner outcomes and delivery standards."
   },
   {
     period:  'OCT 2023 — AUG 2025',
     title:   'Regional Lead, South-South',
     org:     'Empower Her Community',
-    desc:  "Directed regional strategy across South-South Nigeria, expanding tech, entrepreneurship, and leadership access for women through strategic partnerships and multi-state coordination."  
+    desc:  "Led entrepreneurship and leadership initiatives across South-South Nigeria, building partnerships and coordinating programmes that empowered women in business."  
   },
   {
     period:  'MAY 2023 — MAY 2025',
     title:   'DevOps & Cloud Instructor',
     org:     'Techeccentric Consulting (Canada) | Remote',
-    desc:    "Designed and delivered cloud infrastructure training across AWS, Linux, networking, and CI/CD, preparing learners for cloud careers and certification pathways."
+    desc:    "Designed hands-on training in cloud computing, DevOps, and infrastructure automation, preparing learners for globally recognised cloud computing careers."
   },
   {
     period:  'JAN 2024 — PRESENT',
     title:   'Senior Legal Counsel',
     org:     'Edo State Skills Development Agency (EdoJobs)',
-    desc:    "Provided legal, governance, and compliance advisory for workforce programmes, strengthening institutional accountability and contract management across government partnerships."
+    desc:    "Provides legal and governance advisory for workforce programmes, supporting partnerships, compliance, contracting, and policy implementation to strengthen organisational delivery."
   },
 ];
 
