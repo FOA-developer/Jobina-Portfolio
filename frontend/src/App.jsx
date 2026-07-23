@@ -11,6 +11,7 @@ import Pathway from './pages/Pathway';
 import ScrollToTop from './components/others/ScrollToTop';
 import Edo from './pages/Edo';
 import Seg from './pages/Seg';
+import Ngcare from './pages/Ngcare';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/pathway_to_the_economy" element={<Pathway />} />
         <Route path="/edobessto" element={<Edo />} />
         <Route path="/se4g" element={<Seg />} />
+        <Route path="/ng_cares" element={<Ngcare />} />
       </Routes> 
     </>
   );
