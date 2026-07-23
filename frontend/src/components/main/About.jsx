@@ -45,6 +45,27 @@ const About = () => {
                 </div>
               ))}
             </div>
+            {/* Quote card */}
+          <div
+            className=" px-7 py-6 mt-16 border-l-4 rounded-r-xl md:hidden lg:block"
+            style={{
+              borderColor: 'var(--color-text-main)',
+              background:  'var(--color-secondary)',
+            }}
+          >
+            <p
+              className="text-lg md:text-xl font-semibold italic leading-snug text-white mb-4 text-text-header"
+              style={{ color: 'var(--color-text-header)' }}
+            >
+              "Tech is a no-barrier space, there are no gatekeepers."
+            </p>
+            <p
+              className="text-xs tracking-wider uppercase"
+              style={{ color: 'var(--color-text-main)' }}
+            >
+              — Jobina Arinze
+            </p>
+          </div>
           </div>
         </div>
 
@@ -56,17 +77,11 @@ const About = () => {
             className="space-y-5 text-base pt-8"
             style={{ color: 'var(--color-text-muted)' }}
           >
-            <p>
-             Jobina Arinze is a digital skills, youth development, and innovation leader building Africa's future workforce at the intersection of policy, technology, and human capital. With over eight years of experience across government, innovation ecosystems, and international development, she designs and scales initiatives that equip young people with the skills, opportunities, and networks needed to thrive in the digital economy.            </p>
-            <p>
-              As Head of Edo Innovates, Edo State's flagship innovation ecosystem, she leads 70+ annual programmes spanning AI, entrepreneurship, digital literacy, and fintech reaching 2,000+ young people yearly within an ecosystem that has trained 42,000+ tech talents            </p>
-            <p>
-             She partners with governments, development organizations, academia, and the private sector to build inclusive talent pipelines and sustainable pathways into employment and entrepreneurship.            </p>
+            <p><strong>Jobina Arinze</strong> is a workforce development and innovation leader designing the systems that prepare people, businesses, and institutions for the future of work. Working at the intersection of public policy, entrepreneurship, technology, and human capital, she helps governments and development partners translate strategy into scalable programmes that create jobs, strengthen enterprises, and expand economic opportunity.<br></br><br></br>With more than eight years of experience across government, innovation ecosystems, legal practice, and international development, she has led initiatives spanning digital skills, artificial intelligence, entrepreneurship, MSME development, and innovation ecosystem strengthening. Her work focuses on building inclusive talent pipelines that connect learning with employment, entrepreneurship, and long-term economic growth.<br></br><br></br>As <strong>Head of Edo Innovates</strong>, the innovation and entrepreneurship hub of the Edo State Skills Development Agency &#40;EdoJobs&#41;, Jobina leads a portfolio of more than 70 programmes annually within an ecosystem that has equipped over 42,000 people with future-ready skills. Through strategic partnerships with government, academia, development organisations, and the private sector, she is helping shape one of Nigeria's leading state-led models for workforce transformation and innovation-driven economic development.<br></br><br></br>Her work is guided by a simple belief: Africa's greatest competitive advantage is its people, and the future belongs to the countries that invest in their talent today.</p>
           </div>
-
           {/* Quote card */}
           <div
-            className=" px-7 py-6 mt-2 border-l-4 rounded-r-xl "
+            className=" px-7 py-6 mt-2 border-l-4 rounded-r-xl hidden md:block lg:hidden"
             style={{
               borderColor: 'var(--color-text-main)',
               background:  'var(--color-secondary)',
@@ -76,7 +91,7 @@ const About = () => {
               className="text-lg md:text-xl font-semibold italic leading-snug text-white mb-4 text-text-header"
               style={{ color: 'var(--color-text-header)' }}
             >
-              "Tech is a no-barrier space — there are no gatekeepers."
+              "Tech is a no-barrier space, there are no gatekeepers."
             </p>
             <p
               className="text-xs tracking-wider uppercase"
