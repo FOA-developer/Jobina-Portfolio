@@ -47,7 +47,7 @@ const About = () => {
             </div>
             {/* Quote card */}
           <div
-            className=" px-7 py-6 mt-16 border-l-4 rounded-r-xl md:hidden lg:block"
+            className=" px-7 py-6 mt-16 border-l-4 rounded-r-xl hidden lg:block"
             style={{
               borderColor: 'var(--color-text-main)',
               background:  'var(--color-secondary)',
@@ -81,7 +81,7 @@ const About = () => {
           </div>
           {/* Quote card */}
           <div
-            className=" px-7 py-6 mt-2 border-l-4 rounded-r-xl hidden md:block lg:hidden"
+            className=" px-7 py-6 mt-2 border-l-4 rounded-r-xl  block lg:hidden "
             style={{
               borderColor: 'var(--color-text-main)',
               background:  'var(--color-secondary)',
