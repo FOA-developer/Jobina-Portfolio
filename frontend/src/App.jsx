@@ -13,6 +13,7 @@ import Blind from './pages/Blind';
 import Excel from './pages/Excel';
 import Pathway from './pages/Pathway';
 import ScrollToTop from './components/others/ScrollToTop';
+import Edo from './pages/Edo';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/tech_inclusion_for_the_blind" element={<Blind />} />
         <Route path="/excel_essentials" element={<Excel />} />
         <Route path="/pathway_to_the_economy" element={<Pathway />} />
+        <Route path="/edobessto" element={<Edo />} />
       </Routes> 
     </>
   );

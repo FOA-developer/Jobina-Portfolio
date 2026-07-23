@@ -4,6 +4,7 @@ import img2 from '../assets/Aws/3.jpg';
 import img3 from '../assets/Digital/6.jpeg';
 import img4 from '../assets/blind/1.jpeg';
 import img5 from '../assets/excel/2.jpg';
+import img6 from '../assets/Edobest/4.jpeg'
 
 // Single source of truth for the Work section cards AND the navbar "Work" dropdown.
 export const WORK_ITEMS = [
@@ -48,5 +49,12 @@ export const WORK_ITEMS = [
     period:      '2022 — PRESENT',
     src: img5,
     link: '/excel_essentials',
+  },
+  {
+    title:       'EDOBESSTO',
+    description: "Edo Basic Education Sector and Skills Transformation Operation provided strategic leadership for curriculum and programme delivery for the digital skills component.",
+    period:      '2022 — PRESENT',
+    src: img6,
+    link: '/edobessto',
   },
 ];
