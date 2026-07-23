@@ -30,6 +30,7 @@ const Blind = () => {
       /> 
       <Second
         img={img2}
+        header="Contributions"
         title="Youth Digital Skills"
         description="The Youth Digital Talent Pipeline was designed to confront a structural gap in Edo State: low early exposure to STEM, Artificial Intelligence and emerging technologies. Jobina institutionalised a multi-track system that meets young people where they are and moves them, step by step, into the future workforce.Built around robotics, programming, data analytics, web development and AI, the pipeline created a structured progression path — from first exposure through to advanced, certification-ready skills and employer-aligned projects. [Add the full story, context and your role here.]"
         cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}

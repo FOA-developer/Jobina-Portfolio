@@ -88,7 +88,7 @@ const About = () => {
             }}
           >
             <p
-              className="text-lg md:text-xl font-semibold italic leading-snug text-white mb-4 text-text-header"
+              className="text-lg md:text-xl font-semibold italic leading-snug mb-4 text-text-header"
               style={{ color: 'var(--color-text-header)' }}
             >
               "Tech is a no-barrier space, there are no gatekeepers."

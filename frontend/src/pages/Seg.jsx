@@ -35,6 +35,7 @@ const Seg = () => {
       /> 
       <Second
         img={img}
+        header="Contributions"
         title="EdoBEST"
         description="As Faculty Lead, Jobina directed faculty operations across multiple digital skills and workforce development programmes. She led instructor recruitment, onboarding, coaching, performance management, and quality assurance, while overseeing curriculum implementation and learner experience to ensure alignment with industry standards. She established quality assurance systems for programme delivery, instructional excellence, and learner outcomes, and coordinated programme implementation with government agencies, technology partners, and development organisations. She also monitored programme performance, analysed learning data to drive continuous improvement initiatives, and supported compliance, reporting, and achievement of World Bank Programme-for-Results (PforR) indicators."
         description1="Her faculty leadership spanned a broad range of technical and professional programmes, including digital literacy, software and web development, full-stack engineering, and cloud computing (AWS); DevOps, cybersecurity, and data analytics and data science; product design (UI/UX), artificial intelligence, and human-centred design; digital marketing and entrepreneurship; robotics and the Microsoft Power Platform; as well as tech law and career readiness and internship programmes."
