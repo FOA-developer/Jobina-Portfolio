@@ -3,11 +3,11 @@ import Navbar from "../components/main/Navbar";
 import Second from "../components/others/Second";
 import Contact from "../components/main/Contact";
 import img from "../assets/seg/1.webp"
-import img2 from "../assets/seg/1.webp"
-import img4 from "../assets/seg/1.webp"
-import img5 from "../assets/seg/1.webp"
-import img1 from "../assets/seg/1.webp"
-import img6 from "../assets/seg/1.webp"
+import img2 from "../assets/seg/2.webp"
+import img4 from "../assets/seg/4.webp"
+import img5 from "../assets/seg/3.webp"
+import img1 from "../assets/seg/6.webp"
+import img6 from "../assets/seg/5.webp"
 import Gallery from "../components/others/Gallery";
 
 const impact = [
@@ -41,10 +41,10 @@ const Seg = () => {
         cert={["Supported 30+ digital skills and employability programmes across high sectors.", "Helped secure 23 strategic partnerships, surpassing the 20-partnership target.", "Supported expansion of Edo State's digital workforce ecosystem via partnerships.", "Strengthened Edo Innovates faculty governance, instructional and program systems." ]}
       />
       <Gallery 
-           img={img2}
+           img={img1}
            img2={img6}
            img1={img5}
-           img3={img1}
+           img3={img2}
           title="Joberman Program Highlights"
         />
       <Contact />
