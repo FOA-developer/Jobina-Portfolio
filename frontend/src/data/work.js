@@ -2,6 +2,8 @@ import img from '../assets/YOUTH/5.jpeg';
 import img4 from '../assets/blind/1.jpeg';
 import img6 from '../assets/Edobest/4.jpeg'
 import img7 from '../assets/seg/1.webp'
+import img1 from '../assets/ng/2.webp'
+import img2 from '../assets/iom/1.webp'
 
 // Single source of truth for the Work section cards AND the navbar "Work" dropdown.
 export const WORK_ITEMS = [
@@ -32,5 +34,19 @@ export const WORK_ITEMS = [
     period:      '2022 — PRESENT',
     src: img7,
     link: '/se4g',
+  },
+  {
+    title:       'EdoCARES (NG-CARES) Programme',
+    description: "The NG-CARES is a $750 million World Bank-funded  Programme that addressed COVID-19's socio-economic impact across Nigeria, implemented in Edo State through EdoCARES to support livelihoods and recovery.",
+    period:      '2022 — PRESENT',
+    src: img1,
+    link: '/ng_cares',
+  },
+  {
+    title:       'IOM-EdoJobs Business Digitalisation Training for Returned Migrants',
+    description: "The IOM-EdoJobs Business Digitalisation Training was implemented by the IOM in partnership with EdoJobs to support economic reintegration of returned migrants in Edo State.",
+    period:      '2022 — PRESENT',
+    src: img2,
+    link: '/ng_cares',
   },
 ];
