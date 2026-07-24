@@ -12,6 +12,7 @@ import ScrollToTop from './components/others/ScrollToTop';
 import Edo from './pages/Edo';
 import Seg from './pages/Seg';
 import Ngcare from './pages/Ngcare';
+import Iom from './pages/Iom';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/edobessto" element={<Edo />} />
         <Route path="/se4g" element={<Seg />} />
         <Route path="/ng_cares" element={<Ngcare />} />
+        <Route path="/international_organization_for_migration" element={<Iom />} />
       </Routes> 
     </>
   );
