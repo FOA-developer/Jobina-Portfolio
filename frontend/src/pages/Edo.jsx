@@ -46,7 +46,7 @@ const Edo = () => {
            img2={img6}
            img1={img5}
            img3={img1}
-          title="Joberman Program Highlights"
+          title="EdoBEST Programme Highlights"
         />
       <Contact />
     </>

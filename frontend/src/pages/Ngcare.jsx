@@ -36,7 +36,7 @@ const Ngcare = () => {
       <Second
         img={img}
         header="Contributions"
-        title="EdoBEST"
+        title="EDO-CARES (NG-CARES)"
         description="Serving in her capacity as Senior Legal Counsel at EdoJobs, Jobina Arinze provided safeguarding, legal, governance, and monitoring oversight for the Edo State implementation of the World Bank-funded NG-CARES Programme. Her cross-functional role combined legal compliance with safeguarding and monitoring responsibilities to ensure programme delivery met international standards for accountability, inclusion, and environmental and social risk management."
         description1="She led the implementation of safeguarding systems and monitoring processes that strengthened programme integrity, supported evidence-based decision-making, and ensured compliance with the World Bank Environmental and Social Framework (ESF) and Programme-for-Results (PforR) requirements."
         cert={["Provided legal and compliance oversight for NG-CARES Programme.", "Led environmental and social safeguarding per World Bank ESF.", "Coordinated GBV, SEA, SH, and child protection safeguarding.", "Designed monitoring and reporting systems for accountability." ]}
@@ -46,7 +46,7 @@ const Ngcare = () => {
            img2={img6}
            img1={img5}
            img3={img1}
-          title="Joberman Program Highlights"
+          title="EDO-CARES (NG-CARES) Programme Highlights"
         />
       <Contact />
     </>

@@ -5,7 +5,6 @@ import Contact from "../components/main/Contact";
 import img from "../assets/iom/1.webp"
 import img2 from "../assets/iom/2.webp"
 import img4 from "../assets/iom/3.webp"
-import img5 from "../assets/iom/4.webp"
 import img1 from "../assets/iom/5.webp"
 import Gallery from "../components/others/Gallery";
 
@@ -19,7 +18,7 @@ const impact = [
 ];
 
 
-const Ngcare = () => {
+const Iom = () => {
   return  (
     <>
     <Navbar />
@@ -27,29 +26,29 @@ const Ngcare = () => {
         first = "flagdhip programme"
         img={img4}
         impact = {impact}
-        header="EDO-CARES (NG-CARES) Programme"
+        header="IOM-EdoJobs Business Digitalisation Training for Returned Migrants"
         period="October 2024 - DECEMBER 2024"
-        description="The NG-CARES Programme is a $750 million World Bank-funded PforR initiative addressing COVID-19's socio-economic impact across Nigeria. In Edo State, it was implemented through EdoCARES, supporting livelihoods, food security, and economic recovery. Under Result Area 3, the programme supported MSE recovery through operational grants, helping entrepreneurs restart operations, retain jobs, and rebuild resilience. In total, ₦645 million was disbursed to 2,219 micro and small enterprises statewide."
+        description="The IOM-EdoJobs Business Digitalisation Training was implemented by the International Organization for Migration (IOM) in partnership with the Edo State Skills Development Agency (EdoJobs) to support the economic reintegration of returned migrants in Edo State. The programme equipped participants with digital and entrepreneurial skills to establish, strengthen, and sustain viable businesses, fostering economic independence and reducing the risk of irregular re-migration."
         tags={['Legal & Regulatory Compliance', 'Safeguarding ', 'Gender & Social Inclusion']}
       /> 
       <Second
-        img={img}
+        img={img2}
         header="Contributions"
         title="EdoBEST"
-        description="Serving in her capacity as Senior Legal Counsel at EdoJobs, Jobina Arinze provided safeguarding, legal, governance, and monitoring oversight for the Edo State implementation of the World Bank-funded NG-CARES Programme. Her cross-functional role combined legal compliance with safeguarding and monitoring responsibilities to ensure programme delivery met international standards for accountability, inclusion, and environmental and social risk management."
-        description1="She led the implementation of safeguarding systems and monitoring processes that strengthened programme integrity, supported evidence-based decision-making, and ensured compliance with the World Bank Environmental and Social Framework (ESF) and Programme-for-Results (PforR) requirements."
-        cert={["Provided legal and compliance oversight for NG-CARES Programme.", "Led environmental and social safeguarding per World Bank ESF.", "Coordinated GBV, SEA, SH, and child protection safeguarding.", "Designed monitoring and reporting systems for accountability." ]}
+        description="As Senior Legal Counsel for the IOM-EdoJobs Business Digitalisation Training for Returned Migrants, a programme implemented by the International Organization for Migration (IOM) in partnership with EdoJobs to support the economic reintegration of returned migrants in Edo State, she led the business formalization and Corporate Affairs Commission (CAC) registration component. She facilitated practical sessions on the legal aspects of starting and running a business, emphasizing regulatory compliance, corporate governance, and formal business registration as key pillars of sustainable enterprise development."
+        description1="She also coordinated and managed the CAC registration process for participating entrepreneurs, guiding them through documentation, business name registration, and incorporation requirements. Through this intervention, returned migrants left the programme with registered businesses and a stronger legal foundation, better positioned to access funding, build credibility, and grow sustainable enterprises as part of their reintegration."
+        cert={["Led business formalization and CAC registration component of the programme.", "Facilitated legal training sessions on business compliance and governance.", "Coordinated CAC registration for returned migrant entrepreneurs.", "Guided entrepreneurs through documentation and registration requirements." ]}
       />
       <Gallery 
-           img={img2}
+           img={img1}
            img2={img4}
-           img1={img5}
-           img3={img1}
-          title="Joberman Program Highlights"
+           img1={img}
+           img3={img2}
+          title="IOM Programme Highlights"
         />
       <Contact />
     </>
   )
 }
 
-export default Ngcare;
+export default Iom;

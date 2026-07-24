@@ -32,7 +32,7 @@ const Youth = () => {
         img={heroImg}
         title="Youth Digital Skills"
         description="Preparing young people for the future of work cannot begin at university—it must start much earlier. Recognising limited early exposure to STEM and emerging technologies among children in Edo State, Jobina Arinze designed the Youth Digital Talent Pipeline, a long-term initiative that introduces young people to technology early and progressively prepares them for careers in the digital economy."
-        description1 = "Designed for learners aged 8–18, the pipeline moves beyond short-term training by offering structured learning journeys that evolve with each learner's age and interests. Through sequenced programmes in Scratch Programming, Coding & Robotics, Graphics Design, Web Development, Data Analytics, and AI, the initiative builds technical capability alongside creativity, critical thinking, and problem-solving skills."
+        description1 = "Designed for learners aged 8-18, the pipeline moves beyond short-term training by offering structured learning journeys that evolve with each learner's age and interests. Through sequenced programmes in Scratch Programming, Coding & Robotics, Graphics Design, Web Development, Data Analytics, and AI, the initiative builds technical capability alongside creativity, critical thinking, and problem-solving skills."
         cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}
         />
         <Contact />

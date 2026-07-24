@@ -46,7 +46,7 @@ const Royal = () => {
           img2={img4}
           img1={img5}
           img3={img3}
-          title="Joberman Program Highlights"
+          title="EstablishHER Academy Highlights"
           description="See the transformative effect of our Youth Digital Skills program through these success stories and visual highlights."
         />
       <Contact />
