@@ -9,14 +9,14 @@ import img2 from '../assets/iom/1.webp'
 export const WORK_ITEMS = [
   {
     title:       'Youth Digital Talent Pipeline',
-    description: 'A robust, multi-track pipeline for young talent, combining programming, data analytics, design and digital entrepreneurship skills — built for scale and sustained impact across Nigeria.',
+    description: "A robust, multi-track pipeline for young talent, combining programming, data analytics, design and digital entrepreneurship skills, built for scale and sustained impact across Nigeria, shaping tomorrow's digital economy workforce.",
     period:      '2019 — PRESENT',
     src: img,
     link: '/youth',
   },
   {
-    title:       'Tech Inclusion — Training for the Blind & the Visually Impaired',
-    description: 'An adaptive, accessibility-first ICT programme designed specifically for blind and visually impaired learners — removing barriers and opening pathways into the digital economy.',
+    title:       'Tech Inclusion — Training for the the Visually Impaired',
+    description: 'An adaptive, accessibility-first ICT programme designed specifically for blind and visually impaired learners, removing barriers and opening pathways into the digital economy.',
     period:      '2021 — PRESENT',
     src: img4,
     link: '/tech_inclusion_for_the_blind',
@@ -47,6 +47,6 @@ export const WORK_ITEMS = [
     description: "The IOM-EdoJobs Business Digitalisation Training was implemented by the IOM in partnership with EdoJobs to support economic reintegration of returned migrants in Edo State.",
     period:      '2022 — PRESENT',
     src: img2,
-    link: '/ng_cares',
+    link: '/international_organization_for_migration',
   },
 ];
