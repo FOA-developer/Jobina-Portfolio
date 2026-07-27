@@ -46,7 +46,7 @@ const Seg = () => {
            img2={img6}
            img1={img5}
            img3={img2}
-          title="Joberman Program Highlights"
+          title="SE4G Programme Highlights"
         />
       <Contact />
     </>
