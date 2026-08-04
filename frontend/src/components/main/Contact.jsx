@@ -1,8 +1,8 @@
 const SOCIALS = [
   { label: 'LinkedIn',                   href: 'https://www.linkedin.com/in/jobina-arinze' },
-  { label: 'X · @jobymwa',               href: 'https://x.com/jobymwa' },
+  { label: 'X · @jobynwa',               href: 'https://x.com/jobynwa' },
   { label: 'Instagram · @jobinaarinze',  href: 'https://instagram.com/jobinaarinze' },
-  { label: 'Facebook',                   href: 'https://facebook.com' },
+  { label: 'Facebook',                   href: 'https://www.facebook.com/jobinaarinze' },
 ];
 
 const INFO = [
