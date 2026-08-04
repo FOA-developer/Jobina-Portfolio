@@ -68,21 +68,11 @@ const Hero = () => {
           <p className="text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-lg">Human capital and innovation leader driving workforce transformation through strategic programme leadership, ecosystem development, and cross-sector partnerships, designing initiatives that equip young people and institutions to thrive in the digital economy.</p>
 
           {/* CTA buttons */}
-          <div className="flex flex-wrap gap-4 mb-8">
+          <div className="flex flex-wrap mb-8">
             <a
               href="#contact"
               className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border">
               Get in touch <span aria-hidden>→</span>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/jobina-arinze"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white border transition-all duration-200 hover:bg-white/10"
-              style={{ borderColor: 'var(--color-border)' }}
-            >
-              LinkedIn <span aria-hidden>→</span>
             </a>
           </div>
 
