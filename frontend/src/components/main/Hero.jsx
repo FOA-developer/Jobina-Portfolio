@@ -65,7 +65,7 @@ const Hero = () => {
           </p>
 
           {/* Secondary / bio line */}
-          <p className="text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-lg">Human capital and innovation leader driving workforce transformation through strategic programme leadership, ecosystem development, and cross-sector partnerships, designing initiatives that equip young people and institutions to thrive in the digital economy.</p>
+          <p className="text-white/60 text-sm md:text-base leading-relaxed mb-6 max-w-lg">Human capital and innovation leader driving workforce transformation through strategic programme leadership, ecosystem development, and cross-sector partnerships, designing initiatives that equip young people and institutions to thrive in the digital economy.</p>
 
 
           {/* Role pills */}
@@ -88,7 +88,7 @@ const Hero = () => {
           <div className="flex mt-8">
             <a
               href="#contact"
-              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border">
+              className="flex items-center gap-2 px-6 py-3  rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border">
               Get in touch <span aria-hidden>→</span>
             </a>
           </div>
