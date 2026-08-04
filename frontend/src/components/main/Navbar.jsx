@@ -3,11 +3,16 @@ import { Link } from 'react-router-dom';
 import { WORK_ITEMS } from '../../data/work';
 import { SPEAKING_ITEMS } from '../../data/speaking';
 
-// Plain (non-dropdown) links, in nav order.
+// Plain (non-dropdown) links rendered before the dropdowns, in nav order.
 const NAV_LINKS = [
-  { label: 'About',       to: '/#about' },
-  { label: 'Experiences', to: '/#experience' },
+  { label: 'About', to: '/#about' },
 ];
+
+// Plain links rendered after the dropdowns (matches the section order on the page).
+const TRAILING_LINKS = [
+  { label: 'Credentials', to: '/#credentials' },
+];
+
 
 // Dropdown menus — items are pulled from the SAME data that powers the sections.
 const DROPDOWNS = [
@@ -195,6 +200,16 @@ const Navbar = () => {
           />
         ))}
 
+        {TRAILING_LINKS.map(({ label, to }) => (
+          <Link
+            key={label}
+            to={to}
+            className="text-white/70 hover:text-white text-sm tracking-wide transition-colors duration-200"
+          >
+            {label}
+          </Link>
+        ))}
+
         {/* LinkedIn external link — stays as <a> since it's an external URL */}
         <a
           href="https://www.linkedin.com/in/jobina-arinze"
@@ -252,6 +267,17 @@ const Navbar = () => {
               onToggle={() => setOpenMobile((cur) => (cur === menu.label ? null : menu.label))}
               onNavigate={closeMobile}
             />
+          ))}
+
+          {TRAILING_LINKS.map(({ label, to }) => (
+            <Link
+              key={label}
+              to={to}
+              onClick={closeMobile}
+              className="text-text-muted hover:text-black text-sm tracking-wide transition-colors"
+            >
+              {label}
+            </Link>
           ))}
 
           <a
