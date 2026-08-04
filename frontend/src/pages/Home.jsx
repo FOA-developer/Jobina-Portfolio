@@ -15,7 +15,6 @@ const Home = () => {
     <Navbar />
     <Hero />
     <About />
-    <Experience />
     <Work />
     <Speaking />
     <Credentials />
