@@ -25,13 +25,13 @@ const Edo = () => {
     <>
     <Navbar />
       <First 
-        first = "flagdhip programme"
+        first = "flagship programme"
         img={img4}
         impact = {impact}
         header="Edo Basic Education Sector and Skills Transformation"
         period="2018-2024"
         description="Provided strategic leadership for faculty operations, instructional quality, curriculum delivery, and programme implementation for the digital skills component of the World Bank-funded BESSTO programme. Led cross-functional teams responsible for ensuring high-quality learning experiences and the successful execution of workforce development initiatives aligned with Edo State's human capital development strategy."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['World Bank', 'Faculty & Curriculum Leadership', 'Digital Skills & Workforce Development']}
       /> 
       <Second
         img={img}

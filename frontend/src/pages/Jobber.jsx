@@ -31,7 +31,7 @@ const Jobberman = () => {
         header="Jobberman Edo Career Clinic 2025"
         period="Expert Panelist"
         description="The Jobberman Edo Career Clinic is a flagship employability programme brought together by Jobberman Nigeria, the Mastercard Foundation, and the Edo State Skills Development Agency (EdoJobs), built around the theme 'Your Career Compass: Gain Clarity in Work and Business'. The initiative brings young people face-to-face with career coaches, industry professionals, and workforce development experts, offering practical guidance on navigating today's fast-changing labour market, from clarifying career direction and building employable skills to understanding what it actually takes to thrive in work or business. It forms part of a broader push to equip Edo State's youth with the clarity, tools, and connections needed to move confidently into meaningful employment or entrepreneurship."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['Career Readiness', 'Workforce Development', 'Youth Employability']}
       /> 
       <Second
         img={img2}

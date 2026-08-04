@@ -26,7 +26,7 @@ const Grit = () => {
         header="GritinAI Connect 1.0 - AI Conference Edo 2025"
         period="Panelist | AI for Sustainable Development in Edo State"
         description='The GritinAI Connect 2025 conference in Benin City, Nigeria, brought together tech leaders under the theme "AI for Sustainable Development." Moving from awareness to action, the event focused on empowering local MSMEs through automated marketing and modernizing education with the Edo State Ministry of Education. Highlighting healthcare equity and hands-on building, the landmark event featured an AI hackathon, positioning Benin City as a premier, inclusive tech hub for responsible African innovation.'
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['AI for Sustainable Development', 'Innovation Ecosystem', 'Tech Talent Development']}
       /> 
       <Second
         img={img}

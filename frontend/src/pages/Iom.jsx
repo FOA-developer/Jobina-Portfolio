@@ -23,7 +23,7 @@ const Iom = () => {
     <>
     <Navbar />
       <First 
-        first = "flagdhip programme"
+        first = "flagship programme"
         img={img4}
         impact = {impact}
         header="IOM-EdoJobs Business Digitalisation Training for Returned Migrants"

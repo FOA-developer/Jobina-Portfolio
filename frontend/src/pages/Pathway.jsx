@@ -23,17 +23,17 @@ const Pathway = () => {
         first = "speaking engagement"
         img={img}
         impact = {impact}
-        header="Empowering the next generation of digital leaders."
-        period="Gritin AI"
-        description="The Youth Digital Skills program is a transformative initiative designed to equip young individuals with essential digital skills, fostering innovation, creativity, and employability in the digital age. Through comprehensive training and hands-on experience, participants gain proficiency in various digital tools and technologies, preparing them for successful careers in the ever-evolving digital landscape."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        header="Pathways to the Economy: Winning The Money Game"
+        period="Panelist | UNIBEN"
+        description="Pathways to the Economy: Winning The Money Game is a panel discussion hosted by Osayi Omokaro at the University of Benin, bringing together ecosystem shapers to guide UNIBEN students, new graduates, and NYSC members on veritable strategies for entering the economy, covering leadership, employability, business, and social impact."
+        tags={['Youth Economic Empowerment', 'Employability & Career Readiness', 'Leadership Development']}
       /> 
       <Second
         img={img2}
-        title="Youth Digital Skills"
-        description="The Youth Digital Talent Pipeline was designed to confront a structural gap in Edo State: low early exposure to STEM, Artificial Intelligence and emerging technologies. Jobina institutionalised a multi-track system that meets young people where they are and moves them, step by step, into the future workforce.Built around robotics, programming, data analytics, web development and AI, the pipeline created a structured progression path — from first exposure through to advanced, certification-ready skills and employer-aligned projects. [Add the full story, context and your role here.]"
-        cert={["Designed and institutionalised a multi-track talent pipeline serving 700+ learners.", "Trained 180+ learners in Data Analytics using Excel and Python.", "Delivered Web Development bootcamps to 170+ learners .", "Built progression pathways into intermediate and advanced STEM tracks." ]}
-      />
+        title="Pathways to the Economy: Winning The Money Game"
+        description="As a panelist at Pathways to the Economy: Winning The Money Game, held at UNIBEN, Jobina Arinze joined a room of ecosystem builders to guide students, new graduates, and NYSC members on strategies for entering the economy, drawing on her workforce development background to speak to what genuinely prepares young people to thrive, not just find jobs."
+        description1="Her contribution centred on shifting the conversation from job-seeking to value creation, encouraging attendees to build the adaptability, problem-solving, and continuous learning capacity needed to remain relevant as industries and job titles evolve."
+        cert={["Served as a panelist at Pathways to the Economy: Winning The Money Game.", "Guided UNIBEN students, graduates, and NYSC members on entering the economy.", "Advocated for value creation over job-seeking mindsets.", "Shared insights from workforce development experience."]}/>
       <Contact />
     </>
   )

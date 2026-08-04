@@ -26,7 +26,7 @@ const Blind = () => {
         header="Empowering the next generation of digital leaders."
         period="Gritin AI"
         description="The Technology Inclusion for Persons with Visual Impairments programme was a collaborative initiative between the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, through its Skills Development for Youth Employment (SKYE) Programme, and Edo Innovates, the innovation and digital skills arm of the Edo State Skills Development Agency (EdoJobs). The programme was designed to address the persistent exclusion of persons with visual impairments from Nigeria's rapidly growing digital economy by providing accessible digital skills training, assistive technologies, workplace readiness support, and direct pathways to employment."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['Disability Inclusion', 'Accessible Digital Skills Training', 'GIZ Partnership']}
       /> 
       <Second
         img={img2}

@@ -26,7 +26,7 @@ const Jci = () => {
         header="JCIN UNIBEN - Employability, Business & Leadership (EBL) Masterclass 8.0"
         period="Gritin AI"
         description="The Employability, Business & Leadership (EBL) Masterclass is JCIN UNIBEN's flagship annual capacity-building programme designed to bridge the gap between academic learning and workplace readiness. Through intensive training, mentorship, practical assignments, and industry engagement, the programme equips students and young professionals with the competencies required for successful careers and entrepreneurship."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['Employability Skills', 'CV Writing & Interview Prep', 'Career Readiness']}
       /> 
       <Second
         img={img}

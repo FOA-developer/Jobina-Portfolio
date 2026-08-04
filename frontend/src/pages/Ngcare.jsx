@@ -25,7 +25,7 @@ const Ngcare = () => {
     <>
     <Navbar />
       <First 
-        first = "flagdhip programme"
+        first = "flagship programme"
         img={img4}
         impact = {impact}
         header="EDO-CARES (NG-CARES) Programme"

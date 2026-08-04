@@ -32,7 +32,7 @@ const Royal = () => {
         header="EstablishHER Academy - Royal Iwere Foundation"
         period="Faciltator | EstablishHER Academy"
         description="The EstablishHER Academy is the flagship women entrepreneurship and enterprise development programme of the Royal Iwere Foundation, founded by Her Majesty Olori Atuwatse III. The annual programme equips aspiring and growth-stage women entrepreneurs with the knowledge, mentorship, networks, and practical capabilities required to build resilient, scalable, and sustainable businesses."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']} 
+        tags={['Women Entrepreneurship', 'Digital Transformation', 'Business Resilience & Growth']}
         /> 
       <Second
         img={img1}

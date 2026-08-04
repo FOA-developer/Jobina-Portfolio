@@ -26,7 +26,7 @@ const Girl = () => {
         header="Empowering the next generation of digital leaders."
         period="Gritin AI"
         description="The Youth Digital Skills program is a transformative initiative designed to equip young individuals with essential digital skills, fostering innovation, creativity, and employability in the digital age. Through comprehensive training and hands-on experience, participants gain proficiency in various digital tools and technologies, preparing them for successful careers in the ever-evolving digital landscape."
-        tags={['700+ Learners', '+40% YoY Enrollment', '68% advance to next stage']}
+        tags={['Digital Skills Training', 'STEM & AI Talent Pipeline', 'Early STEM Exposure']}
       /> 
       <Second
         img={img}
