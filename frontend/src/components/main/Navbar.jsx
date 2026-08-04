@@ -210,15 +210,6 @@ const Navbar = () => {
           </Link>
         ))}
 
-        {/* LinkedIn external link — stays as <a> since it's an external URL */}
-        <a
-          href="https://www.linkedin.com/in/jobina-arinze"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-white/70 hover:text-white text-sm tracking-wide transition-colors duration-200"
-        >
-          LinkedIn
-        </a>
 
         {/* CTA button */}
         <Link
@@ -280,14 +271,6 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <a
-            href="https://www.linkedin.com/in/jobina-arinze"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-text-muted hover:text-black text-sm tracking-wide"
-          >
-            LinkedIn
-          </a>
 
           <Link
             to="/#contact"
