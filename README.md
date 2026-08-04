@@ -6,9 +6,9 @@ A portfolio site that shows Jobina Arinze, the Head of Edo innovates speaking en
  
 ## Built With
  
-- **React** — for the UI and handling page routing across the different pages
-- **Tailwind CSS** — for styling
-- **React Bits (Scroll Stack)** — used the Scroll Stack component from React Bits for the scrolling stack effect that shpws in the gallery section of each programme or speaking engagement
+- **React**:  for the UI and handling page routing across the different pages
+- **Tailwind CSS**:  for styling
+- **React Bits (Scroll Stack)** : used the Scroll Stack component from React Bits for the scrolling stack effect that shows in the gallery section of each programme or speaking engagement
 
 ## Features
  
@@ -17,6 +17,6 @@ A portfolio site that shows Jobina Arinze, the Head of Edo innovates speaking en
 - Clean navigation between the home page and individual engagement/project pages
 - Fully responsive layout across devices
 
-AI was used in bui8lding out the navbar, creating useeffects and the design too
+AI was used in building out the navbar, creating useeffects and the design too
 
 it's deployed on vercel
