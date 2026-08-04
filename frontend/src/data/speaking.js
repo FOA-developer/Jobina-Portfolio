@@ -4,6 +4,7 @@ import img2 from '../assets/girllead/3.jpeg';
 import img3 from '../assets/jci/3.jpeg';
 import img4 from '../assets/royal/2.jpeg';
 import img5 from '../assets/pathway/1.jpg';
+import img6 from "../assets/omni/1.webp";
 
 // Single source of truth for the Speaking section cards AND the navbar "Speaking" dropdown.
 export const SPEAKING_ITEMS = [
@@ -43,10 +44,17 @@ export const SPEAKING_ITEMS = [
     link: '/royaliwere',
   },
   {
-    title:       'Facilator/Speaker',
-    description: 'A women-focused entrepreneurship programme combining business development, digital innovation, mentorship, and access to finance to accelerate enterprise growth',
-    period:      'EstablishHER Academy',
+    title:       'Panelist',
+    description: "Joined a panel discussion at the University of Benin, guiding students, new graduates, and NYSC members through leadership, employability, and practical strategies for entering the economy after school.",
+    period:      'Pathways to the Economy',
     src: img5,
     link: '/pathway_to_the_economy',
+  },
+  {
+    title:       'Facilitator',
+    description: "Facilitated an AI Masterclass introducing participants to core Artificial Intelligence concepts and real-world applications at one of Africa's leading innovation gatherings, held in Lagos.",
+    period:      'Omniverse Africa Summit 3.0',
+    src: img6,
+    link: '/omniverse_africa_summit',
   },
 ];

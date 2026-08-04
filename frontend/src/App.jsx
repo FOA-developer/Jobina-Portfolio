@@ -13,6 +13,7 @@ import Edo from './pages/Edo';
 import Seg from './pages/Seg';
 import Ngcare from './pages/Ngcare';
 import Iom from './pages/Iom';
+import Omni from './pages/Omni';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/youth" element={<Youth />} />
+        <Route path="/omniverse_africa_summit" element={<Omni />} />
         <Route path="/jobberman" element={<Jobberman />} />
         <Route path="/gritin_ai_conference" element={<Grit />} />
         <Route path="/girllead" element={<Girl />} />
