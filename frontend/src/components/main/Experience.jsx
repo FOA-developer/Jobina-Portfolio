@@ -45,7 +45,7 @@ const Experience = () => {
       style={{ background: 'var(--color-secondary)' }}
     >
       {/* ── Section label ── */}
-      <p className="text-xs tracking-[0.1em] uppercase mb-12 font-medium text-text-main">
+      <p className="text-xs tracking-widest uppercase mb-12 font-medium text-text-main">
         Experience
       </p>
 

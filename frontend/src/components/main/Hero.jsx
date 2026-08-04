@@ -47,7 +47,7 @@ const Hero = () => {
 
           {/* Small uppercase label at the top */}
           <p
-            className="text-xs md:text-sm tracking-[0.1em] pt-0 lg:pt-16 uppercase mb-5 font-medium"
+            className="text-xs md:text-sm tracking-widest pt-0 lg:pt-16 uppercase mb-5 font-medium"
             style={{ color: 'var(--color-text-main)' }}
           >
             Future Workforce &nbsp;·&nbsp; Innovation &nbsp;·&nbsp; Digital Skills
@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 mb-8">
             <a
               href="#contact"
-              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border-1">
+              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-all duration-200 hover:bg-white/10 border-border border">
               Get in touch <span aria-hidden>→</span>
             </a>
 
@@ -135,7 +135,7 @@ const Hero = () => {
 
                 {/* Stat description */}
                 <span
-                  className="text-xs md:text-sm leading-snug max-w-[160px]"
+                  className="text-xs md:text-sm leading-snug max-w-40"
                   style={{ color: 'var(--color-text-header-description)' }}
                 >
                   {stat.label}

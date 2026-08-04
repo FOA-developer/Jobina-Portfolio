@@ -100,7 +100,7 @@ const Credentials = () => {
 
   return (
     <section id="credentials" className="bg-white mb-6">
-      <h5 className="text-xs tracking-[0.1em] uppercase mb-6 font-medium text-text-main px-6 md:px-16 lg:px-24">Certifications</h5>
+      <h5 className="text-xs tracking-widest uppercase mb-6 font-medium text-text-main px-6 md:px-16 lg:px-24">Certifications</h5>
       <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6 w-full md:max-w-[80%] px-6 md:px-16 lg:px-24 text-text-muted"> Certified to build at the frontier.</h2>
       <div className="mx-auto w-full max-w-4xl px-4 py-10 sm:px-6 lg:px-10">
         <div className="relative overflow-hidden rounded-lg">

@@ -232,14 +232,14 @@ const Navbar = () => {
 
       {/* ── Mobile hamburger toggle ── */}
       <button
-        className="md:hidden flex flex-col gap-[5px] p-1"
+        className="md:hidden flex flex-col gap-1.25 p-1"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
         aria-expanded={menuOpen}
       >
-        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-[7px] ' : ''}`} />
+        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-1.75 ' : ''}`} />
         <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
-        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-[7px] ' : ''}`} />
+        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-1.75 ' : ''}`} />
       </button>
 
       {/* ── Mobile dropdown menu ── */}
