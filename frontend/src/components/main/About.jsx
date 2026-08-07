@@ -8,7 +8,7 @@ const cert = [
     title: "Nigerian Law School · 2010"
   },
   {
-    name: "LL.B.(HONS.)",
+    name: "LL.B.(Hons.)",
     title: "UNIBEN · 2008"
   }
 ]
