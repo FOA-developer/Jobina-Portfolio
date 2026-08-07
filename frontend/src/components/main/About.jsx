@@ -8,7 +8,7 @@ const cert = [
     title: "Nigerian Law School · 2010"
   },
   {
-    name: "LL.B, Law",
+    name: "LL.B.(HONS.)",
     title: "UNIBEN · 2008"
   }
 ]
@@ -21,7 +21,7 @@ const About = () => {
     >
       {/* ── Section label ── */}
       <p
-        className="text-xs tracking-[0.1em] uppercase mb-12 font-bold"
+        className="text-xs tracking-widest uppercase mb-12 font-bold"
         style={{ color: 'var(--color-text-main)' }}
       >
         About
