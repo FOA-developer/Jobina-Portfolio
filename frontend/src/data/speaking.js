@@ -64,7 +64,7 @@ export const SPEAKING_ITEMS = [
     description: "Jobina led a virtual training session at the Africa Digital Skills Conference on the business behind a small business's first online sale, covering how to sustain sales order after order.",
     period:      'Africa Digital Skills Conference 2026',
     src: img7,
-    link: '/beyoundsellingpoinnt',
+    link: '/africadigitalskills',
   },
   {
     title: "Mentor",

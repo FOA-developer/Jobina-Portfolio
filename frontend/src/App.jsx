@@ -17,6 +17,7 @@ import Idice from './pages/Idice';
 import Omni from './pages/Omni';
 import TechYouth from './pages/TechYouth';
 import EstablishHer from './pages/EstabllishHer';
+import AfricaSkill from './pages/AfricaSkill';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/se4g" element={<Seg />} />
         <Route path="/ng_cares" element={<Ngcare />} />
         <Route path="/idice" element={<Idice />} />
+        <Route path="/africadigitalskills" element={<AfricaSkill />} />
         <Route path="/establishher" element={<EstablishHer />} />
         <Route path="/tech4youth" element={<TechYouth />} />
         <Route path="/international_organization_for_migration" element={<Iom />} />
