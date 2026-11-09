@@ -4,7 +4,7 @@ import img6 from '../assets/Edobest/4.jpeg'
 import img7 from '../assets/seg/1.webp'
 import img1 from '../assets/ng/2.webp'
 import img2 from '../assets/iom/1.webp'
-import img5 from '../assets/idice/img1.jpg'
+import img5 from '../assets/idice/img1.JPG'
 import img3 from "../assets/royal/1.jpeg"
 
 

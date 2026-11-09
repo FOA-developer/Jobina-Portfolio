@@ -2,11 +2,11 @@ import First from "../components/others/First";
 import Navbar from "../components/main/Navbar";
 import Second from "../components/others/Second";
 import Contact from "../components/main/Contact";
-import img from "../assets/idice/img.jpg"
-import img2 from "../assets/idice/img2.jpg"
-import img4 from "../assets/idice/img4.jpg"
-import img3 from "../assets/idice/img3.jpg"
-import img1 from "../assets/idice/img1.jpg"
+import img from "../assets/idice/img.JPG"
+import img2 from "../assets/idice/img2.JPG"
+import img4 from "../assets/idice/img4.JPG"
+import img3 from "../assets/idice/img3.JPG"
+import img1 from "../assets/idice/img1.JPG"
 import Gallery from "../components/others/Gallery";
 
 const impact = [
