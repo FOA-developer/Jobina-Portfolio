@@ -6,7 +6,7 @@ import img from "../assets/idice/img.JPG"
 import img2 from "../assets/idice/img2.JPG"
 import img4 from "../assets/idice/img4.JPG"
 import img3 from "../assets/idice/img3.JPG"
-import img1 from "../assets/idice/img1.JPG"
+import img1 from "../assets/idice/img1.jpg"
 import Gallery from "../components/others/Gallery";
 
 const impact = [
