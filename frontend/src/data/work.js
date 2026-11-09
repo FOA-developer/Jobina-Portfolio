@@ -30,7 +30,7 @@ export const WORK_ITEMS = [
   },
   {
     title:       'Sustainable E-Commerce For Growth',
-    description: "The Centre for Digital Business and E-Commerce Skills is an EdoJobs and GIZ initiative under the SEDIN SE4G initiative, based at the Edo Innovation Hub, equipping MSMEs with digital skills in e commerce, marketing, and business strategy.",
+    description: "The Centre for Digital Business and E-Commerce Skills is an EdoJobs and GIZ initiative at the Edo Innovation Hub, equipping MSMEs with e-commerce skills.",
     period:      '2022 — PRESENT',
     src: img7,
     link: '/se4g',
@@ -44,9 +44,21 @@ export const WORK_ITEMS = [
   },
   {
     title:       'IOM-EdoJobs Business Digitalisation Training for Returned Migrants',
-    description: "The IOM-EdoJobs Business Digitalisation Training was implemented by the IOM in partnership with EdoJobs to support economic reintegration of returned migrants in Edo State.",
+    description: "The IOM-EdoJobs Business Digitalisation Training was implemented by the IOM in partnership with EdoJobs to support returned migrants in Edo State.",
     period:      '2022 — PRESENT',
     src: img2,
     link: '/international_organization_for_migration',
   },
+  {
+    title: 'IDICE South-South Skills-to-Jobs Programme',
+    description: "The IDICE South-South Skills-to-Jobs Programme is a Federal Government digital and creative skills initiative targeting 50,000 beneficiaries across six South-South states, including Bayelsa.",
+    period: 'Oct 2026 — Present',
+    link: '/idice'
+  },
+  {
+    title: 'Tech4Youth | GIZ Digital Transformation Center Nigeria',
+    description: "Jobina leads career readiness and employer linkage for 200 participants in the first Tech4Youth Edo cohort, helping them build portfolios and prepare for interviews.",
+    period: '2026',
+    link: '/tech4youth'
+  }
 ];

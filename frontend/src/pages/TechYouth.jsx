@@ -2,13 +2,7 @@ import First from "../components/others/First";
 import Navbar from "../components/main/Navbar";
 import Second from "../components/others/Second";
 import Contact from "../components/main/Contact";
-import img from "../assets/ng/1.webp"
-import img2 from "../assets/ng/2.webp"
-import img4 from "../assets/ng/3.webp"
-import img5 from "../assets/ng/4.webp"
-import img1 from "../assets/ng/5.webp"
-import img6 from "../assets/ng/6.webp"
-import Gallery from "../components/others/Gallery";
+import img1 from "../assets/royal/1.jpeg"
 
 const impact = [
   { value: '42,000+',  label: 'Tech talents trained across the ecosystem' },
@@ -20,13 +14,13 @@ const impact = [
 ];
 
 
-const Idice = () => {
+const TechYouth = () => {
   return  (
     <>
     <Navbar />
       <First 
         first = "flagship programme"
-        img={img4}
+        img={img1}
         impact = {impact}
         header="Tech4Youth | GIZ Digital Transformation Center Nigeria"
         period="Career Readiness and Employment Linkages Coach · Edo State · 2026"
@@ -34,23 +28,16 @@ const Idice = () => {
         tags={['Jobs Empowerment', 'Enterprenurship ', 'Digital Skills']}
       /> 
       <Second
-        img={img}
+        img={img1}
         header="Contributions"
         title="Tech4Youth | GIZ Digital Transformation Center Nigeria"
         description="Serving in her capacity as Career Readiness and Employment Linkages Coach at AG Southern Company Limited, Jobina Arinze provides career coaching, portfolio development, employer engagement, and outcome verification support for the first Edo State cohort of the Tech4Youth initiative under GIZ’s Digital Transformation Center Nigeria. Her cross-functional role combines participant coaching with employer-side linkage work to ensure 200 emerging tech professionals across Data Analytics, Cybersecurity, Artificial Intelligence, and Software Development are prepared for, and connected to, jobs, internships, remote roles, and freelance opportunities."
         description1="She leads the delivery of career action plans, portfolio clinics, CV and LinkedIn reviews, interview simulations, and group coaching sessions that help participants turn their training into credible evidence of skill. She works with the programme’s monitoring and evaluation team to verify placement outcomes across applications, interviews, offers, and starts."
         cert={["Connected candidates with employers, recruiters, and freelance clients.", "Delivered portfolio clinics, CV reviews, and interview simulations.", "Developed individual career action plans and coaching sessions", "Led career readiness and employment linkage for 200 participants." ]}
       />
-      <Gallery 
-           img={img2}
-           img2={img6}
-           img1={img5}
-           img3={img1}
-          title="Tech4Youth | GIZ Digital Transformation Center Nigeria Highlights"
-        />
       <Contact />
     </>
   )
 }
 
-export default Idice;
+export default TechYouth;
