@@ -4,6 +4,9 @@ import img6 from '../assets/Edobest/4.jpeg'
 import img7 from '../assets/seg/1.webp'
 import img1 from '../assets/ng/2.webp'
 import img2 from '../assets/iom/1.webp'
+import img5 from '../assets/idice/img1.jpg'
+import img3 from "../assets/royal/1.jpeg"
+
 
 // Single source of truth for the Work section cards AND the navbar "Work" dropdown.
 export const WORK_ITEMS = [
@@ -53,12 +56,14 @@ export const WORK_ITEMS = [
     title: 'IDICE South-South Skills-to-Jobs Programme',
     description: "The IDICE South-South Skills-to-Jobs Programme is a Federal Government digital and creative skills initiative targeting 50,000 beneficiaries across six South-South states, including Bayelsa.",
     period: 'Oct 2026 — Present',
+    src: img5,
     link: '/idice'
   },
   {
     title: 'Tech4Youth | GIZ Digital Transformation Center Nigeria',
     description: "Jobina leads career readiness and employer linkage for 200 participants in the first Tech4Youth Edo cohort, helping them build portfolios and prepare for interviews.",
     period: '2026',
+    src: img3,
     link: '/tech4youth'
   }
 ];
