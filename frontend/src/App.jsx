@@ -13,7 +13,9 @@ import Edo from './pages/Edo';
 import Seg from './pages/Seg';
 import Ngcare from './pages/Ngcare';
 import Iom from './pages/Iom';
+import Idice from './pages/Idice';
 import Omni from './pages/Omni';
+import TechYouth from './pages/TechYouth';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
         <Route path="/edobessto" element={<Edo />} />
         <Route path="/se4g" element={<Seg />} />
         <Route path="/ng_cares" element={<Ngcare />} />
+        <Route path="/idice" element={<Idice />} />
+        <Route path="/tech4youth" element={<TechYouth />} />
         <Route path="/international_organization_for_migration" element={<Iom />} />
       </Routes> 
     </>
