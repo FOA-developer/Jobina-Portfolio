@@ -2,12 +2,11 @@ import First from "../components/others/First";
 import Navbar from "../components/main/Navbar";
 import Second from "../components/others/Second";
 import Contact from "../components/main/Contact";
-import img from "../assets/ng/1.webp"
-import img2 from "../assets/ng/2.webp"
-import img4 from "../assets/ng/3.webp"
-import img5 from "../assets/ng/4.webp"
-import img1 from "../assets/ng/5.webp"
-import img6 from "../assets/ng/6.webp"
+import img from "../assets/idice/img.jpg"
+import img2 from "../assets/idice/img2.jpg"
+import img4 from "../assets/idice/img4.jpg"
+import img3 from "../assets/idice/img3.jpg"
+import img1 from "../assets/idice/img1.jpg"
 import Gallery from "../components/others/Gallery";
 
 const impact = [
@@ -34,7 +33,7 @@ const Idice = () => {
         tags={['Jobs Empowerment', 'Enterprenurship ', 'Digital Skills']}
       /> 
       <Second
-        img={img}
+        img={img2}
         header="Contributions"
         title="IDICE South-South Skills-to-Jobs Programme"
         description="Serving in her capacity as Bayelsa State Coordinator at Wootlab Innovations, Jobina Arinze provides delivery leadership, field team direction, financial management, and employment pathway oversight for the Bayelsa rollout of the iDICE South-South Skills-to-Jobs Programme. Her cross-functional role combines state programme delivery with partner engagement and financial control to ensure the six-state, 50,000-beneficiary rollout meets its targets for enrolment, completion, and placement."
@@ -42,10 +41,10 @@ const Idice = () => {
         cert={["Led Bayelsa delivery of the iDICE Skills-to-Jobs rollout.", "Directed field teams and stakeholder partnerships across the state.", "Managed activity funding, expenditure, and financial reporting.", "Tracked applications, enrolments, completions, and placements" ]}
       />
       <Gallery 
-           img={img2}
-           img2={img6}
-           img1={img5}
-           img3={img1}
+           img={img}
+           img2={img1}
+           img1={img3}
+           img3={img4}
           title="IDICE South-South Skills-to-Jobs Programme Highlights"
         />
       <Contact />
