@@ -5,6 +5,8 @@ import img3 from '../assets/jci/3.jpeg';
 import img4 from '../assets/royal/2.jpeg';
 import img5 from '../assets/pathway/1.jpg';
 import img6 from "../assets/omni/1.webp";
+import img7 from "../assets/bsp/beyond-selling-online.jpeg"
+import img8 from "../assets/royal/1.jpeg"
 
 // Single source of truth for the Speaking section cards AND the navbar "Speaking" dropdown.
 export const SPEAKING_ITEMS = [
@@ -57,4 +59,18 @@ export const SPEAKING_ITEMS = [
     src: img6,
     link: '/omniverse_africa_summit',
   },
+  {
+    title:       'Trainer',
+    description: "Jobina led a virtual training session at the Africa Digital Skills Conference on the business behind a small business's first online sale, covering how to sustain sales order after order.",
+    period:      'Africa Digital Skills Conference 2026',
+    src: img7,
+    link: '/beyoundsellingpoinnt',
+  },
+  {
+    title: "Mentor",
+    description: "Jobina mentored five women entrepreneurs over two months in UnleashHER, the Royal Iwẹrẹ Foundation's EstablishHER Fund, helping them apply their training to running and growing their businesses.",
+    period: "EstablishHER Mentorship Programme",
+    src: img8,
+    link: '/establishher'
+  }
 ];
